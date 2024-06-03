@@ -91,7 +91,7 @@ const options = ref({
       }
     },
     "size": {
-      "value": 3,
+      "value": 10,
       "animation": {
         "enable": true,
         "startValue": "min",
