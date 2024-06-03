@@ -1,5 +1,17 @@
 <script setup>
 import {RouterLink, RouterView} from 'vue-router'
+import {onMounted, ref} from 'vue';
+
+
+// Function to replace text when hovered over
+const replaceText = (el) => {
+  if (el.target.innerHTML === "quoi") {
+    el.target.innerHTML = 'quoicoubeh';
+  } else {
+    el.target.innerHTML = 'quoi';
+
+  }
+};
 
 </script>
 
@@ -8,15 +20,15 @@ import {RouterLink, RouterView} from 'vue-router'
   <div class="column-center">
     <p></p>
     <p><strong class="big-emoji">📅</strong> 22 au 24 Novembre 2024</p>
-    <p><strong class="big-emoji">📍</strong> <a href="https://maps.app.goo.gl/89Wrqt1BvGvsYHfz9" target="_blank">Le Pontet (73)</a></p>
+    <p><strong class="big-emoji">📍</strong> <a href="https://maps.app.goo.gl/G25UncNcQshp6evu5" target="_blank">Le Pontet (73)</a></p>
     <p>
       <strong class="big-emoji">🏏</strong>
-      <RouterLink to="activities">Mais on va faire quoi ?</RouterLink>
+      <RouterLink to="activities">Mais on va faire <strong @mouseenter="replaceText">quoi</strong> ?</RouterLink>
 
     </p>
     <p>
       <strong class="big-emoji">🥘</strong>
-      <RouterLink to="food">Mais on va manger quoi ?</RouterLink>
+      <RouterLink to="food">Mais on va manger <strong @mouseenter="replaceText">quoi</strong> ?</RouterLink>
 
     </p>
   </div>
