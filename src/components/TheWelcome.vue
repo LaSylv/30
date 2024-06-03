@@ -3,6 +3,7 @@ import {RouterLink, RouterView} from 'vue-router'
 import {onMounted, ref} from 'vue';
 import Compteur from "@/components/Compteur.vue";
 import Banner from "@/components/Banner.vue";
+import Money from "@/components/Money.vue";
 
 
 // Function to replace text when hovered over
@@ -39,6 +40,7 @@ const replaceText = (el) => {
 
   <Compteur></Compteur>
 
+  <Money></Money>
   <div class="sponsors">
     <h2>Sponsorisé par</h2>
     <div class="row-center">
