@@ -19,6 +19,7 @@ const replaceText = (el) => {
 </script>
 
 <template>
+
   <h2>La bamboche de l'année</h2>
   <div class="column-center">
     <Banner></Banner>
@@ -38,9 +39,14 @@ const replaceText = (el) => {
   <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Anniversaire+de+Jean&dates=20240620T000000Z/20240620T235900Z&details=30+Ans+Sylvain!&location=Le+Pontet&sf=true&output=xml"
      class="link">Ajouter à Google Calendar</a>
 
+  <img
+      src="@/assets/place.gif"
+      alt="WOW">
   <Compteur></Compteur>
 
   <Money></Money>
+
+
   <div class="sponsors">
     <h2>Sponsorisé par</h2>
     <div class="row-center">

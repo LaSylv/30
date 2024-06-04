@@ -16,7 +16,7 @@ import {ref} from "vue";
   <!--      </nav>-->
   <!--    </div>-->
   <!--  </header>-->
-  <RouterLink to="/"><h1>🎉 30 ans de Sylvain 🎉</h1>
+  <RouterLink to="/"><h1 class="blink_me">🎉 30 ans de Sylvain 🎉</h1>
   </RouterLink>
   <RouterView/>
 </template>
