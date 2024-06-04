@@ -1,14 +1,12 @@
 <template>
   <div class="participation-page">
-    <h2>Paticipation financière</h2>
+    <h2>PAF</h2>
     <p>Pour ceux qui peuvent, une petite participation pour le logement et/ou la bouffe est apprécié. </p>
 
     <swiper :slides-per-view="3"
             class="mySwiper" :modules="[Navigation, Pagination]" navigation pagination>
       <swiper-slide class="option" @click="selectOption('Basic')">
-
         <div class="image-container">
-
           <img src="@/assets/money/very-poor.png" alt="Basic Level">
         </div>
         <h3>Dev Front</h3>
@@ -17,11 +15,10 @@
         <p>Tous les repas</p>
         <p>Toutes les boissons</p>
         <p>Pas de tickets pour la tombola</p>
-
       </swiper-slide>
+
       <swiper-slide class="option" @click="selectOption('Standard')">
         <div class="image-container">
-
           <img src="@/assets/money/poor.jpeg" alt="Standard Level">
         </div>
         <h3>Stagiaire</h3>
@@ -29,46 +26,38 @@
         <p>Un lit</p>
         <p>Tous les repas</p>
         <p>Toutes les boissons</p>
-        <p>Goodie surprise</p>
-        <p>Un goodie à l'effigie de la bamboche</p>
         <p>Une dédicace sur le site</p>
-        <p>1 ticket pour la tombola</p>
       </swiper-slide>
+
       <swiper-slide class="option" @click="selectOption('Premium')">
-
         <div class="image-container">
-
           <img src="@/assets/money/medium.jpeg" alt="Premium Level">
         </div>
         <h3>Full Stack</h3>
+        <h4>A partir de 70€</h4>
+        <p>Un lit</p>
+        <p>Tous les repas</p>
+        <p>Toutes les boissons</p>
+        <p>Une dédicace sur le site</p>
+        <p>Un mug ou une paire de chaussettes personnalisées (au choix)</p>
+      </swiper-slide>
+
+      <swiper-slide class="option" @click="selectOption('Premium')">
+        <div class="image-container">
+          <img src="@/assets/money/rich.jpeg" alt="Premium Level">
+        </div>
+        <h3>Lead</h3>
         <h4>A partir de 100€</h4>
         <p>Un lit</p>
         <p>Tous les repas</p>
         <p>Toutes les boissons</p>
-        <p>Goodie surprise personnalisé</p>
-        <p>Une dédicace sur la page d'acceuil du site</p>
-        <p>5 tickets pour la tombola</p>
+        <p>Une dédicace sur le site</p>
+        <p>Un mug et une paire de chaussettes personnalisées</p>
+        <p>Une photo dédicacée d'un de mes pieds</p>
       </swiper-slide>
 
       <swiper-slide class="option" @click="selectOption('Premium')">
-
         <div class="image-container">
-
-          <img src="@/assets/money/rich.jpeg" alt="Premium Level">
-        </div>
-        <h3>Lead</h3>
-        <h4>A partir de 250€</h4>
-        <p>Un lit</p>
-        <p>Tous les repas</p>
-        <p>Toutes les boissons</p>
-        <p>Goodie surprise personnalisé</p>
-        <p>Une dédicace sur la page d'acceuil du site</p>
-        <p>5 tickets pour la tombola</p>
-      </swiper-slide>
-      <swiper-slide class="option" @click="selectOption('Premium')">
-
-        <div class="image-container">
-
           <img src="@/assets/money/very-rich.png" alt="Premium Level">
         </div>
         <h3>Manager</h3>
@@ -76,9 +65,10 @@
         <p>Un lit</p>
         <p>Tous les repas</p>
         <p>Toutes les boissons</p>
-        <p>Goodie surprise personnalisé</p>
+        <p>Un mug et une paire de chaussettes personnalisées</p>
         <p>Une dédicace sur la page d'acceuil du site</p>
-        <p>5 tickets pour la tombola</p>
+        <p>Une photo dédicacée de mes 2 pieds</p>
+        <p>Echantillon ADN</p>
       </swiper-slide>
     </swiper>
 
