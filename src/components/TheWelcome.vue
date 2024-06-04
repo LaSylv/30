@@ -33,10 +33,13 @@ const replaceText = (el) => {
     <p>
       <strong class="big-emoji">🥘</strong>
       <RouterLink to="food">Mais on va manger <strong @mouseenter="replaceText">quoi</strong> ?</RouterLink>
-
+    </p>
+    <p>
+      <strong class="big-emoji">💵</strong>
+      <RouterLink to="money">C'est gratuit ?</RouterLink>
     </p>
   </div>
-  <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Anniversaire+de+Jean&dates=20240620T000000Z/20240620T235900Z&details=30+Ans+Sylvain!&location=Le+Pontet&sf=true&output=xml"
+  <a target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Anniversaire+de+Sylvain&dates=20241122T180000Z/20241124T150000Z&details=La+bamboche+de+l'année+!+https://lasylv.github.io/30/&location=Le+Pontet&sf=true&output=xml"
      class="link">Ajouter à Google Calendar</a>
 
   <img

@@ -1,13 +1,221 @@
-<script setup>
-</script>
-
 <template>
-  <div>
-    <h2>Nourriture</h2>
-    <h3>En cours de developement, revenez plus tard</h3>
-    <img
-        style="width: 100%"
-        src="@/assets/wip-2.jpg"
-        alt="WIP">
+  <div class="participation-page">
+    <h2>Paticipation financière</h2>
+    <p>Pour ceux qui peuvent, une petite participation pour le logement et/ou la bouffe est apprécié. </p>
+
+    <swiper :slides-per-view="3"
+            class="mySwiper" :modules="[Navigation, Pagination]" navigation pagination>
+      <swiper-slide class="option" @click="selectOption('Basic')">
+
+        <div class="image-container">
+
+          <img src="@/assets/money/very-poor.png" alt="Basic Level">
+        </div>
+        <h3>Dev Front</h3>
+        <h4>A partir de 0€</h4>
+        <p>Un lit</p>
+        <p>Tous les repas</p>
+        <p>Toutes les boissons</p>
+        <p>Pas de tickets pour la tombola</p>
+
+      </swiper-slide>
+      <swiper-slide class="option" @click="selectOption('Standard')">
+        <div class="image-container">
+
+          <img src="@/assets/money/poor.jpeg" alt="Standard Level">
+        </div>
+        <h3>Stagiaire</h3>
+        <h4>A partir de 50€</h4>
+        <p>Un lit</p>
+        <p>Tous les repas</p>
+        <p>Toutes les boissons</p>
+        <p>Goodie surprise</p>
+        <p>Un goodie à l'effigie de la bamboche</p>
+        <p>Une dédicace sur le site</p>
+        <p>1 ticket pour la tombola</p>
+      </swiper-slide>
+      <swiper-slide class="option" @click="selectOption('Premium')">
+
+        <div class="image-container">
+
+          <img src="@/assets/money/medium.jpeg" alt="Premium Level">
+        </div>
+        <h3>Full Stack</h3>
+        <h4>A partir de 100€</h4>
+        <p>Un lit</p>
+        <p>Tous les repas</p>
+        <p>Toutes les boissons</p>
+        <p>Goodie surprise personnalisé</p>
+        <p>Une dédicace sur la page d'acceuil du site</p>
+        <p>5 tickets pour la tombola</p>
+      </swiper-slide>
+
+      <swiper-slide class="option" @click="selectOption('Premium')">
+
+        <div class="image-container">
+
+          <img src="@/assets/money/rich.jpeg" alt="Premium Level">
+        </div>
+        <h3>Lead</h3>
+        <h4>A partir de 250€</h4>
+        <p>Un lit</p>
+        <p>Tous les repas</p>
+        <p>Toutes les boissons</p>
+        <p>Goodie surprise personnalisé</p>
+        <p>Une dédicace sur la page d'acceuil du site</p>
+        <p>5 tickets pour la tombola</p>
+      </swiper-slide>
+      <swiper-slide class="option" @click="selectOption('Premium')">
+
+        <div class="image-container">
+
+          <img src="@/assets/money/very-rich.png" alt="Premium Level">
+        </div>
+        <h3>Manager</h3>
+        <h4>A partir de 500€</h4>
+        <p>Un lit</p>
+        <p>Tous les repas</p>
+        <p>Toutes les boissons</p>
+        <p>Goodie surprise personnalisé</p>
+        <p>Une dédicace sur la page d'acceuil du site</p>
+        <p>5 tickets pour la tombola</p>
+      </swiper-slide>
+    </swiper>
+
+    <div class="confirmation">
+      <div class="flashy-banner">
+        <p>Un ticket de TOMBOLA offert par tranche de 5€ </p>
+      </div>
+    </div>
   </div>
 </template>
+
+<script setup>
+import {ref} from 'vue';
+
+import {Swiper, SwiperSlide} from 'swiper/vue';
+import 'swiper/swiper-bundle.css';
+import {Navigation, Pagination} from "swiper/modules";
+
+const selectedOption = ref(null);
+
+const selectOption = (option) => {
+  selectedOption.value = option;
+};
+</script>
+
+<style scoped>
+.participation-page {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.option {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  max-width: 200px;
+}
+
+.option img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.option h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.option p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.option:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.confirmation {
+  margin-top: 100px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.image-container {
+  width: 100%;
+  height: 150px; /* Fix height for all images */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+@keyframes border-flash {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: yellow;
+  }
+  50% {
+    border-color: green;
+  }
+  75% {
+    border-color: blue;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+@keyframes background-blink {
+  0% {
+    background-color: #ff00ff;
+  }
+  25% {
+    background-color: #00ffff;
+  }
+  50% {
+    background-color: #ffff00;
+  }
+  75% {
+    background-color: #ff0000;
+  }
+  100% {
+    background-color: #ff00ff;
+  }
+}
+
+.flashy-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  border: 5px solid;
+  border-radius: 10px;
+  animation: border-flash 1s infinite, background-blink 1s infinite;
+}
+</style>
