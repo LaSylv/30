@@ -45,6 +45,11 @@ const replaceText = (el) => {
   <Compteur></Compteur>
 
   <Money></Money>
+  <RouterLink class="invit" to="invit">
+    <img src="@/assets/bin.png" class="bin" />
+    <img src="@/assets/warning.png" class="warning" />
+    <div class="txt-bin">1 fichier txt supprimé important dans la poubelle de grosse pute...</div>
+  </RouterLink>
 
 
   <div class="sponsors">
