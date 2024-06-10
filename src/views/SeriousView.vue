@@ -2,13 +2,13 @@
   <div class="serious-text">
     <h2>Informations</h2>
 
-    <h3>Pour Participer</h3>
-    <p>Pour t'inscrire, remplit le formulaire en cliquant sur le lien ci-dessous.</p>
+    <h3>Pour participer</h3>
+    <p>Pour t'inscrire, remplis le formulaire en cliquant sur le lien ci-dessous.</p>
     <p>Si tu ne participes pas/ne sait pas encore, envoie moi un message pour prévenir ! </p>
 
     <div class="row-center"><img src="@/assets/arrow.gif" width="75px"><a class="flashy-link" href="https://docs.google.com/forms/d/1FxksGiPw5jN7kdatgcXkmvJ1sN1vCOTpbNz97oKC8q0/prefill" target="_blank">Clique ici pour aller sur le formulaire d'inscription</a><img src="@/assets/arrow.gif" class="rotated-180" width="75px"></div>
 
-    <h3>Infos sur le Lieu</h3>
+    <h3>Infos sur le lieu</h3>
     <p>
       L'événement se déroulera à "Le Pontet", à 2h de Lyon, dans 3
       chalets, avec des chambres de 2 à 6 personnes.
@@ -34,16 +34,16 @@
       Guetta s'élève à 200 000€).
     </p>
     <p>
-      Les contreparties par &nbsp;
-      <RouterLink to="money"> ici</RouterLink>&nbsp
+      Les contreparties par&nbsp;
+      <RouterLink to="money">ici</RouterLink>&nbsp
     </p>
 
-    <h3>Infos Supplémentaires</h3>
+    <h3>Infos supplémentaires</h3>
     <p>
       Le reste des infos se trouvent sur ce site, il sera mis à jour au fur et à mesure !
     </p>
     <p>
-      <RouterLink to="/">Page d'acceuil</RouterLink>
+      <RouterLink to="/">Page d'accueil</RouterLink>
     </p>
   </div>
 </template>
