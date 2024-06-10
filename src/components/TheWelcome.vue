@@ -26,7 +26,7 @@ const replaceText = (el) => {
 
     <p>
       <strong class="big-emoji">ℹ️</strong>
-      <RouterLink to="infos">Informations génrales</RouterLink>
+      <RouterLink to="infos">Informations générales</RouterLink>
 
     </p>
     <p><strong class="big-emoji">📅</strong> 22 au 24 Novembre 2024</p>

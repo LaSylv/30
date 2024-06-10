@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Nombre de Visiteurs</h1>
+    <h1>Nombre De Visiteurs</h1>
     <div class="counter">{{ count }}</div>
     <button v-if="count < 1000" class="button" @click="incrementCounter">Augmenter</button>
     <div v-else><h2>1000ème visiteur !</h2>

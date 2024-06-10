@@ -1,10 +1,10 @@
 <template>
   <div class="participation-page">
     <h2>PAF</h2>
-    <p>Afin de proposer une experience unique all inclusive sur 2 nuits, je demande une participation financière par personne. </p>
-    <p>Le but étant que tu viennes, si c'est galère pour toi, pas de soucis, donne ce que tu peux ;)</p>
-    <p>Le plus tôt, tu peux payer, plus cela permet au Sylvanniversaire d'anticiper de choses grandioses !</p>
-    <p>Ci dessous les contreparties en fonction de ta participation, pour te donner envi de rendre cet évenement inoubliable</p>
+    <p>Afin de proposer une expérience unique en formule tout inclus sur 2 nuits, une participation financière par personne est demandée.</p>
+    <p>Le but est que tu participes, même si c'est difficile financièrement pour toi. Donne ce que tu peux ;)</p>
+    <p>Plus tôt tu peux payer, plus cela permettra au Sylvanniversaire d'anticiper des éléments grandioses !</p>
+    <p>Ci-dessous, découvre les contreparties en fonction de ta participation, pour te donner envie de rendre cet événement inoubliable.</p>
     <swiper :slides-per-view="1"
             :breakpoints="{
               640: { slidesPerView: 1 },
@@ -55,7 +55,7 @@
         <p>Tous les repas</p>
         <p>Toutes les boissons</p>
         <p>Une dédicace sur le site</p>
-        <p>Un mug et une paire de chaussettes personnalisées</p>
+        <p>Un mug ET une paire de chaussettes personnalisées</p>
         <p>Une photo dédicacée d'un de mes pieds</p>
       </swiper-slide>
 
@@ -67,7 +67,7 @@
         <p>Un lit</p>
         <p>Tous les repas</p>
         <p>Toutes les boissons</p>
-        <p>Un mug et une paire de chaussettes personnalisées</p>
+        <p>Un mug ET une paire de chaussettes personnalisées</p>
         <p>Une dédicace sur la page d'accueil du site</p>
         <p>Une photo dédicacée de mes 2 pieds</p>
         <p>Echantillon ADN</p>
@@ -76,7 +76,7 @@
 
     <div class="confirmation">
       <div class="flashy-banner">
-        <p>Un ticket de TOMBOLA offert par tranche de 5€</p>
+        <p>Un ticket de tombola offert par tranche de 5€</p>
       </div>
     </div>
   </div>

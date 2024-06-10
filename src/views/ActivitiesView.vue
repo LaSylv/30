@@ -5,7 +5,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 <template>
   <div>
     <h2>Activités</h2>
-    <h3>En cours de developement, revenez plus tard</h3>
+    <h3>En cours de développement, revenez plus tard</h3>
     <img
         style="width: 100%"
         src="@/assets/wip-1.jpg"

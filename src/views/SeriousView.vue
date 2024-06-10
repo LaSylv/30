@@ -10,8 +10,8 @@
 
     <h3>Infos sur le Lieu</h3>
     <p>
-      L'événement se déroulera à "Le Pontet", à 2h de Lyon, avec des chambres de 2 à 6 personnes réparties dans 3
-      chalets.
+      L'événement se déroulera à "Le Pontet", à 2h de Lyon, dans 3
+      chalets, avec des chambres de 2 à 6 personnes.
     </p>
     <p>
       Si tu souhaites venir avec des enfants, c'est possible, on
@@ -21,20 +21,21 @@
 
     <h3>Participation financière</h3>
     <p>
-      L'anniversaire est entièrement all inclusive, ce qui signifie que tout est pris en charge pour que tu passes
-      un moment inoubliable sans te soucier des détails, pas besoin de ramener tes cacahuètes et ta Manzana !
+      Tout est géré pendant l'anniversaire, ce qui signifie que tout est pris en charge pour que tu passes
+      un moment inoubliable sans te soucier des détails, pas besoin de ramener quoique ce soit !
     </p>
     <p>
-      Malheureusement, je n'aurais surement pas touché mes BSPCE d'ici là, donc je demande une participation financière
+      Malheureusement, je n'aurais surement pas gagné au loto d'ici là, donc je demande une participation financière
       à hauteur de ce que tu peux.
+    </p>
+
+    <p>
+      Plus les contributions seront généreuses, plus l'univers des possibles sera grand (pour info, le cachet de David
+      Guetta s'élève à 200 000€).
     </p>
     <p>
       Les contreparties par &nbsp;
       <RouterLink to="money"> ici</RouterLink>&nbsp
-    </p>
-    <p>
-      Plus les contributions seront généreuses, plus l'univers des possibles sera grand (pour info, le cachet de David
-      Guetta s'élève à 200 000€).
     </p>
 
     <h3>Infos Supplémentaires</h3>
