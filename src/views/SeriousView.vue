@@ -6,7 +6,7 @@
     <p>Pour t'inscrire, remplit le formulaire en cliquant sur le lien ci-dessous.</p>
     <p>Si tu ne participes pas/ne sait pas encore, envoie moi un message pour prévenir ! </p>
 
-    <div class="row-center"><img src="@/assets/arrow.gif" width="75px"><a class="flashy-link" href="https://docs.google.com/forms/d/1FxksGiPw5jN7kdatgcXkmvJ1sN1vCOTpbNz97oKC8q0/prefill" target="_blank">Formulaire d'inscription</a><img src="@/assets/arrow.gif" class="rotated-180" width="75px"></div>
+    <div class="row-center"><img src="@/assets/arrow.gif" width="75px"><a class="flashy-link" href="https://docs.google.com/forms/d/1FxksGiPw5jN7kdatgcXkmvJ1sN1vCOTpbNz97oKC8q0/prefill" target="_blank">Clique ici pour aller sur le formulaire d'inscription</a><img src="@/assets/arrow.gif" class="rotated-180" width="75px"></div>
 
     <h3>Infos sur le Lieu</h3>
     <p>
@@ -91,17 +91,17 @@ h3 {
 /* Animation pour changer la couleur et la bordure */
 @keyframes flashy-blink {
   0% {
-    color: #ff0000;
+    color: #00ff00;
     border-color: #ff0000;
     background: linear-gradient(45deg, #ffcccc, #ff99cc);
   }
   50% {
-    color: #ffff00;
+    color: #f0000f;
     border-color: #ffff00;
     background: linear-gradient(45deg, #ffffcc, #ffff99);
   }
   100% {
-    color: #00ff00;
+    color: #0000ff;
     border-color: #00ff00;
     background: linear-gradient(45deg, #ccffcc, #99ff99);
   }
