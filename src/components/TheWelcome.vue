@@ -23,6 +23,12 @@ const replaceText = (el) => {
   <h2>La bamboche de l'année</h2>
   <div class="column-center">
     <Banner></Banner>
+
+    <p>
+      <strong class="big-emoji">ℹ️</strong>
+      <RouterLink to="infos">Informations génrales</RouterLink>
+
+    </p>
     <p><strong class="big-emoji">📅</strong> 22 au 24 Novembre 2024</p>
     <p><strong class="big-emoji">📍</strong> <a href="https://maps.app.goo.gl/G25UncNcQshp6evu5" target="_blank">Le Pontet (73)</a></p>
     <p>

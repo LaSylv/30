@@ -137,7 +137,7 @@ const selectOption = (option) => {
 }
 
 .confirmation {
-  margin-top: 100px;
+  margin-top: 30px;
   font-size: 18px;
   font-weight: bold;
 }
