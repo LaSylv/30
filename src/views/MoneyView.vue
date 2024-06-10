@@ -1,15 +1,21 @@
 <template>
   <div class="participation-page">
     <h2>PAF</h2>
-    <p>Pour ceux qui peuvent, une petite participation pour le logement et/ou la bouffe est apprécié. </p>
-
-    <swiper :slides-per-view="3"
+    <p>Afin de proposer une experience unique all inclusive sur 2 nuits, je demande une participation financière par personne. </p>
+    <p>Le but étant que tu viennes, si c'est galère pour toi, pas de soucis, donne ce que tu peux ;)</p>
+    <p>Le plus tôt, tu peux payer, plus cela permet au Sylvanniversaire d'anticiper de choses grandioses !</p>
+    <p>Ci dessous les contreparties en fonction de ta participation</p>
+    <swiper :slides-per-view="1"
+            :breakpoints="{
+              640: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 }
+            }"
             class="mySwiper" :modules="[Navigation, Pagination]" navigation pagination>
       <swiper-slide class="option" @click="selectOption('Basic')">
         <div class="image-container">
           <img src="@/assets/money/very-poor.png" alt="Basic Level">
         </div>
-        <h3>Dev Front</h3>
         <h4>A partir de 0€</h4>
         <p>Un lit</p>
         <p>Tous les repas</p>
@@ -21,7 +27,6 @@
         <div class="image-container">
           <img src="@/assets/money/poor.jpeg" alt="Standard Level">
         </div>
-        <h3>Stagiaire</h3>
         <h4>A partir de 50€</h4>
         <p>Un lit</p>
         <p>Tous les repas</p>
@@ -33,7 +38,6 @@
         <div class="image-container">
           <img src="@/assets/money/medium.jpeg" alt="Premium Level">
         </div>
-        <h3>Full Stack</h3>
         <h4>A partir de 70€</h4>
         <p>Un lit</p>
         <p>Tous les repas</p>
@@ -46,7 +50,6 @@
         <div class="image-container">
           <img src="@/assets/money/rich.jpeg" alt="Premium Level">
         </div>
-        <h3>Lead</h3>
         <h4>A partir de 100€</h4>
         <p>Un lit</p>
         <p>Tous les repas</p>
@@ -60,13 +63,12 @@
         <div class="image-container">
           <img src="@/assets/money/very-rich.png" alt="Premium Level">
         </div>
-        <h3>Manager</h3>
         <h4>A partir de 500€</h4>
         <p>Un lit</p>
         <p>Tous les repas</p>
         <p>Toutes les boissons</p>
         <p>Un mug et une paire de chaussettes personnalisées</p>
-        <p>Une dédicace sur la page d'acceuil du site</p>
+        <p>Une dédicace sur la page d'accueil du site</p>
         <p>Une photo dédicacée de mes 2 pieds</p>
         <p>Echantillon ADN</p>
       </swiper-slide>
@@ -74,7 +76,7 @@
 
     <div class="confirmation">
       <div class="flashy-banner">
-        <p>Un ticket de TOMBOLA offert par tranche de 5€ </p>
+        <p>Un ticket de TOMBOLA offert par tranche de 5€</p>
       </div>
     </div>
   </div>
@@ -100,10 +102,9 @@ const selectOption = (option) => {
   font-family: Arial, sans-serif;
 }
 
-.options {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+.mySwiper {
+  width: 100%;
+  height: 100%;
 }
 
 .option {
@@ -143,7 +144,7 @@ const selectOption = (option) => {
 
 .image-container {
   width: 100%;
-  height: 150px; /* Fix height for all images */
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,7 +156,7 @@ const selectOption = (option) => {
 .image-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure the image covers the container */
+  object-fit: cover;
 }
 
 @keyframes border-flash {

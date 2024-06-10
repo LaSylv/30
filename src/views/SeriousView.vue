@@ -12,9 +12,8 @@
       à hauteur de ce que tu peux.
     </p>
     <p>
-      Par &nbsp
+      Les contreparties par
       <RouterLink to="money"> ici</RouterLink>&nbsp
-      si tu ne sais pas à hauteur de combien participer.
     </p>
     <p>
       Plus les contributions seront généreuses, plus l'univers des possibles sera grand (pour info, le cachet de David
@@ -45,7 +44,7 @@
     <p>Pour t'inscrire, remplit le formulaire en cliquant sur le lien ci-dessous.</p>
     <p>Si tu ne participes pas/ne sait pas encore, envoie moi un message pour prévenir ! </p>
 
-    <p><a>Formulaire d'inscription</a></p>
+    <p><a href="https://docs.google.com/forms/d/1FxksGiPw5jN7kdatgcXkmvJ1sN1vCOTpbNz97oKC8q0/prefill" target="_blank">Formulaire d'inscription</a></p>
   </div>
 </template>
 

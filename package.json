@@ -12,7 +12,7 @@
     "@tsparticles/engine": "^3.4.0",
     "@tsparticles/vue3": "^3.0.1",
     "swiper": "^11.1.4",
-    "tsparticles": "^3.4.0",
+    "tsparticles" : "^3.4.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
