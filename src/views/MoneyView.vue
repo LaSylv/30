@@ -4,7 +4,7 @@
     <p>Afin de proposer une experience unique all inclusive sur 2 nuits, je demande une participation financière par personne. </p>
     <p>Le but étant que tu viennes, si c'est galère pour toi, pas de soucis, donne ce que tu peux ;)</p>
     <p>Le plus tôt, tu peux payer, plus cela permet au Sylvanniversaire d'anticiper de choses grandioses !</p>
-    <p>Ci dessous les contreparties en fonction de ta participation</p>
+    <p>Ci dessous les contreparties en fonction de ta participation, pour te donner envi de rendre cet évenement inoubliable</p>
     <swiper :slides-per-view="1"
             :breakpoints="{
               640: { slidesPerView: 1 },

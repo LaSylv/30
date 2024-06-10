@@ -42,7 +42,7 @@ const replaceText = (el) => {
     </p>
     <p>
       <strong class="big-emoji">💵</strong>
-      <RouterLink to="money">C'est gratuit ?</RouterLink>
+      <RouterLink to="money">Participation financière</RouterLink>
     </p>
   </div>
   <a target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Anniversaire+de+Sylvain&dates=20241122T180000Z/20241124T150000Z&details=La+bamboche+de+l'année+!+https://lasylv.github.io/30/&location=Le+Pontet&sf=true&output=xml"

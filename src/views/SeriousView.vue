@@ -2,6 +2,11 @@
   <div class="serious-text">
     <h2>Informations</h2>
 
+    <h3>Pour Participer</h3>
+    <p>Pour t'inscrire, remplit le formulaire en cliquant sur le lien ci-dessous.</p>
+    <p>Si tu ne participes pas/ne sait pas encore, envoie moi un message pour prévenir ! </p>
+
+    <div class="row-center"><img src="@/assets/arrow.gif" width="75px"><a class="flashy-link" href="https://docs.google.com/forms/d/1FxksGiPw5jN7kdatgcXkmvJ1sN1vCOTpbNz97oKC8q0/prefill" target="_blank">Formulaire d'inscription</a><img src="@/assets/arrow.gif" class="rotated-180" width="75px"></div>
 
     <h3>Infos sur le Lieu</h3>
     <p>
@@ -14,7 +19,7 @@
     </p>
     <a href="https://maps.app.goo.gl/G25UncNcQshp6evu5" target="_blank">Découvrir le lieu</a>
 
-    <h3>Tout Compris (All Inclusive)</h3>
+    <h3>Participation financière</h3>
     <p>
       L'anniversaire est entièrement all inclusive, ce qui signifie que tout est pris en charge pour que tu passes
       un moment inoubliable sans te soucier des détails, pas besoin de ramener tes cacahuètes et ta Manzana !
@@ -39,13 +44,6 @@
     <p>
       <RouterLink to="/">Page d'acceuil</RouterLink>
     </p>
-
-
-    <h3>Pour Participer</h3>
-    <p>Pour t'inscrire, remplit le formulaire en cliquant sur le lien ci-dessous.</p>
-    <p>Si tu ne participes pas/ne sait pas encore, envoie moi un message pour prévenir ! </p>
-
-    <div class="row-center"><img src="@/assets/arrow.gif" width="75px"><a class="flashy-link" href="https://docs.google.com/forms/d/1FxksGiPw5jN7kdatgcXkmvJ1sN1vCOTpbNz97oKC8q0/prefill" target="_blank">Formulaire d'inscription</a><img src="@/assets/arrow.gif" class="rotated-180" width="75px"></div>
   </div>
 </template>
 
