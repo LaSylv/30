@@ -13,13 +13,13 @@ const urls = ref({
 <template>
   <div>
     <h2>Menus</h2>
-    <DisplayImage :image-src="urls.pizza">
-      <h3>Vendredi Soir</h3>
-    </DisplayImage>
-    <DisplayImage :image-src="urls.raclette">
-      <h3>Samedi Soir</h3>
-    </DisplayImage>
-    <h3>Reste des repas en cours d'élaboration par nos chefs, revenez plus tard</h3>
+<!--    <DisplayImage :image-src="urls.pizza">-->
+<!--      <h3>Vendredi Soir</h3>-->
+<!--    </DisplayImage>-->
+<!--    <DisplayImage :image-src="urls.raclette">-->
+<!--      <h3>Samedi Soir</h3>-->
+<!--    </DisplayImage>-->
+    <h3>Repas en cours d'élaboration par nos chefs, revenez plus tard</h3>
     <img
         style="width: 100%"
         src="@/assets/wip-2.jpg"

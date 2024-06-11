@@ -6,7 +6,7 @@
     <p>Pour t'inscrire, remplis le formulaire en cliquant sur le lien ci-dessous.</p>
     <p>Si tu ne participes pas/ne sait pas encore, envoie moi un message pour prévenir ! </p>
 
-    <div class="row-center"><img src="@/assets/arrow.gif" width="75px"><a class="flashy-link" href="https://docs.google.com/forms/d/1FxksGiPw5jN7kdatgcXkmvJ1sN1vCOTpbNz97oKC8q0/prefill" target="_blank">Clique ici pour aller sur le formulaire d'inscription</a><img src="@/assets/arrow.gif" class="rotated-180" width="75px"></div>
+    <div class="row-center"><img src="@/assets/arrow.gif" width="75px"><a class="flashy-link" href="https://forms.gle/TCc4pkt3KNaii4K57" target="_blank">Clique ici pour aller sur le formulaire d'inscription</a><img src="@/assets/arrow.gif" class="rotated-180" width="75px"></div>
 
     <h3>Infos sur le lieu</h3>
     <p>
