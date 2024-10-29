@@ -2,7 +2,7 @@
   <div class="participation-page">
     <h2>PAF</h2>
     <p>Afin de proposer une expérience unique en formule tout inclus sur 2 nuits, une participation financière par personne est demandée.</p>
-    <p>Je compte sur environ 50€ par personne pour ne pas manger des pates eco+ pendant 6 mois après mon anniversaire</p>
+    <p>Je compte sur environ 50€ par personne pour ne pas manger des pates eco+ pendant 6 mois après mon anniversaire, ce qui couvrira environ 30% des frais</p>
     <p>Ci-dessous, découvre les contreparties en fonction de ta participation, pour te donner envie de rendre cet événement inoubliable.</p>
     <swiper :slides-per-view="1"
             :breakpoints="{
