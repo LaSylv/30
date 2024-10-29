@@ -3,26 +3,27 @@ import DisplayImage from "@/components/DisplayImage.vue";
 import {ref} from "vue";
 import pizza from "@/assets/food/pizza.png";
 import raclette from "@/assets/food/raclette.png";
+import soupe from "@/assets/food/soupe.png";
 
 const urls = ref({
   pizza,
-  raclette
+  raclette,
+  soupe
 })
 </script>
 
 <template>
   <div>
     <h2>Menus</h2>
-<!--    <DisplayImage :image-src="urls.pizza">-->
-<!--      <h3>Vendredi Soir</h3>-->
-<!--    </DisplayImage>-->
-<!--    <DisplayImage :image-src="urls.raclette">-->
-<!--      <h3>Samedi Soir</h3>-->
-<!--    </DisplayImage>-->
-    <h3>Repas en cours d'élaboration par nos chefs, revenez plus tard</h3>
-    <img
-        style="width: 100%"
-        src="@/assets/wip-2.jpg"
-        alt="WIP">
+    <DisplayImage :image-src="urls.pizza">
+      <h3>Vendredi Soir</h3>
+    </DisplayImage>
+    <DisplayImage :image-src="urls.soupe">
+      <h3>Samedi midi</h3>
+    </DisplayImage>
+
+    <DisplayImage :image-src="urls.raclette">
+      <h3>Samedi Soir</h3>
+    </DisplayImage>
   </div>
 </template>

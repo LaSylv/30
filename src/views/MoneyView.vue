@@ -20,7 +20,7 @@
         <p>Un lit</p>
         <p>Tous les repas</p>
         <p>Toutes les boissons</p>
-        <p>Pas de tickets pour la tombola</p>
+        <p>Pas de cartes pour le bingo</p>
       </swiper-slide>
 
       <swiper-slide class="option" @click="selectOption('Standard')">
@@ -76,7 +76,7 @@
 
     <div class="confirmation">
       <div class="flashy-banner">
-        <p>Un ticket de tombola offert par tranche de 5€</p>
+        <p>Une carte de bingo offerte par tranche de 5€</p>
       </div>
     </div>
   </div>
