@@ -62,14 +62,11 @@ const replaceText = (el) => {
       <a target="_blank" href="https://www.reddit.com/r/CryptoMoonShots/"><img height="75" width="75"
                                                                                src="@/assets/sponsors/dwax-logo.png"
                                                                                alt="DWAX"></a>
-      <a target="_blank" href="https://allocinoche.fr"><img height="30" width="200"
-                                                            src="@/assets/sponsors/allocinoche.svg"
-                                                            alt="Allocinoche"></a>
     </div>
     <div>
       <a target="_blank" href="https://raclette.world"><img height="75" width="75"
                                                             src="@/assets/sponsors/raclette-world.png"
-                                                            alt="Allocinoche"></a>
+                                                            alt="Raclette World"></a>
       <a target="_blank" href="https://oupsgpt.com"><img height="75" width="75"
                                                             src="@/assets/sponsors/oupsgpt.svg"
                                                             alt="OupsGPT"></a>
