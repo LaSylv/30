@@ -1,13 +1,6 @@
 <template>
   <div class="serious-text">
     <h2>Informations</h2>
-
-    <h3>Pour participer</h3>
-    <p>Pour t'inscrire, remplis le formulaire en cliquant sur le lien ci-dessous.</p>
-    <p>Si tu ne participes pas/ne sait pas encore, envoie moi un message pour prévenir ! </p>
-
-    <div class="row-center"><img src="@/assets/arrow.gif" width="75px"><a class="flashy-link" href="https://forms.gle/TCc4pkt3KNaii4K57" target="_blank">Clique ici pour aller sur le formulaire d'inscription</a><img src="@/assets/arrow.gif" class="rotated-180" width="75px"></div>
-
     <h3>Infos sur le lieu</h3>
     <p>
       L'événement se déroulera à "Le Pontet", à 2h de Lyon, dans 3

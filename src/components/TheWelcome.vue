@@ -29,6 +29,13 @@ const replaceText = (el) => {
       <RouterLink to="infos">Informations générales</RouterLink>
 
     </p>
+
+
+    <p>
+      <strong class="big-emoji">📋</strong>
+      <RouterLink to="checklist">Ma checklist avant de venir</RouterLink>
+
+    </p>
     <p><strong class="big-emoji">📅</strong> 22 au 24 Novembre 2024</p>
     <p><strong class="big-emoji">📍</strong> <a href="https://maps.app.goo.gl/G25UncNcQshp6evu5" target="_blank">Le Pontet (73)</a></p>
     <p>
