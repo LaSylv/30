@@ -7,7 +7,7 @@
       <li class="goofy-item">🛁 <span class="placeholder">Serviette de bain (Draps fournis mais pas la serviette de bain)</span></li>
       <li class="goofy-item">👙 <span class="placeholder">Maillot pour le jacuzzi (indispensable!)</span></li>
       <li class="goofy-item">🎰 <span class="placeholder">La carte de bingo que tu as reçu dans ton invitation</span></li>
-<!--      <li class="goofy-item">🪵 <span class="placeholder">Un morceau de ce que tu veux pour le BYOS</span></li>-->
+      <li class="goofy-item">🪵 <span class="placeholder">Du matos pour Make Sylvain Great Again</span></li>
       <li class="goofy-item">🎲 <span class="placeholder">Si t'aimes les jeux de société tu peux en ramener!</span></li>
       <li class="goofy-item">🍾 <span class="placeholder">Pas besoin de nourriture ou d'alcool, mais une bouteille de digestif ou autre est la bienvenue si tu veux vraiment faire découvrir les boissons de ton grand père</span></li>
     </ul>
