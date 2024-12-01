@@ -131,3 +131,32 @@ h2 {
         opacity: 0;
     }
 }
+
+.invit {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    &:hover {
+        cursor: pointer;
+        .txt-bin {
+            display: block;
+        }
+    }
+}
+
+.bin {
+    width: 75px;
+}
+
+.txt-bin {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border: solid 1px grey;
+}
+
+.warning {
+    position: relative;
+    top: 10px;
+    right: 35px;
+}
